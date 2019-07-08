@@ -1,10 +1,9 @@
 import React from "react"
-import {FaAdobe} from 'react-icons/fa'
 import Layout from '../components/Layout'
+import SimpleHero from '../components/SimpleHero'
 
 export default () => (
     <Layout>
-        <div>Hello from Backroads</div>
-        <FaAdobe />
+        <SimpleHero />
     </Layout>
 )
