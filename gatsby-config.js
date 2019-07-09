@@ -11,6 +11,15 @@ module.exports = {
         author: "@johndoe",
         data: ["item1", "item2"]
     },
-    plugins: [`gatsby-plugin-styled-components`]
+    plugins: [
+        {
+            resolve: `gatsby-source-filesystem`,
+            options: {
+                name: `images`,
+                path: `${__dirname}/src/images/`,
+            },
+        },
+        
+        `gatsby-plugin-styled-components`]
 }
 
