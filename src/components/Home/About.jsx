@@ -4,7 +4,6 @@ import styles from '../../css/about.module.css'
 import img from '../../images/defaultBcg.jpeg'
 const About = () => {
     return (
-        <div>
             <section className={styles.about}>
                 <Title title='about' subtitle='us' />
                 <div className={styles.aboutCenter}>
@@ -23,7 +22,6 @@ const About = () => {
                     </article>
                 </div>
             </section>
-        </div>
     )
 }
 
