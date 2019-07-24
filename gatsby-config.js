@@ -19,7 +19,7 @@ module.exports = {
                 path: `${__dirname}/src/images/`,
             },
         },
-        
+        `gatsby-plugin-transition-link`,
         `gatsby-plugin-styled-components`,
         `gatsby-transformer-sharp`,
         `gatsby-plugin-sharp`
